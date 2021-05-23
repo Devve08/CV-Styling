@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header div {
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 50%;
+  height: 30vh;
+}
+
+header {
+  background-color: rgb(165, 165, 165);
+  width: 100%;
+}
+
+
+header div hgroup {
+  
+  margin-left: 200px;
+  justify-self: center;
+  align-self: center;
+  line-height: 70px;
+  color:#ff0000;
+
+}
+
+figure {
+  align-self: center;
+  margin-right: 80px;
+  color: #707070;
+}
+
+figure img {
+  width: 120px;
+  height: 120px;
+}
+
+.contacts{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  line-height: 30px;
+}
+
+.contacts dl {
+  display: flex;
+  background-color: black;
+  justify-content: flex-start;
+}
+
+.contacts dt {
+  
+  width: 115px;
+  justify-self: flex-start;
+  padding-left: 5px;
+  background-color: red;
+  color: aliceblue;
+}
+
+.contacts dd a{
+  color: red;
+  text-decoration: none;
+  
+}
+
+.contacts dd{
+  padding-left: 5px;
+}
+
+.contacts {
+
+  position: absolute;
+  right:0;
+  top: 10px;
+
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 50px;
+  
+}
+
+.content h3{
+  border-bottom: 1px solid grey;
+  padding-bottom: 10px;
+}
+
+#contact h3 {
+   display: none;
+}
+
+section {
+  margin-bottom: 10px;
+}
+
+#about p {
+  width: 600px;
+}
+
+#competencies .skills {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.skills-primary{
+  
+  height: 18vh;
+  
+}
+
+#competencies .skill{
+  
+  height: 6vh;
+  margin-bottom: 2px;
+  padding: 4px;
+}
+
+#competencies span {
+  display: flex;
+  padding: 4px;
+  background-color: red;
+  color: white;
+}
+
+.skills-secondary span {
+ 
+  background-color: #ff4b4b;
+  opacity: 0.7;
+  color: white;
+}
+
+.skills-primary .skill:first-child span{
+  width: 50%;
+}
+
+.skills-primary .skill:nth-child(2) span{
+  width: 30%;
+}
+
+.skills-primary .skill:last-child span{
+  width: 10%;
+
+}
+
+.skills-secondary .skill:first-child span{
+  width: 90%;
+}
+
+.skills-secondary .skill:nth-child(2) span{
+  width: 50%;
+}
+
+.skills-secondary .skill:last-child span{
+  width: 70%;
+}
+
+.skills-secondary .skill {
+  background-color: rgb(224, 224, 224);
+
+}
+
+.skills-primary .skill {
+  background-color:rgb(194, 194, 194);
+}
+
+.skills-primary::before {
+  font: bold;
+  color: black;
+  content: "Main";
+  margin-top: 5px;
+}
+
+.skills-secondary::before{
+  font: bold;
+  color: black;
+  content: "Other";
+  margin-top: 30px;
+}
+
+h3::before {
+  content:'\1F534';
+  padding-right: 5px;
+  
+}
+
+.experience-date-separator{
+  color: red;
+}
+
+.experience-type {
+  color: red;
+}
+
+.experience-institution{
+  color: red;
+}
+
+.experience-institution::before {
+  content: '@';
+  padding-right: 7px;
+
+}
+
+.experience-details{
+  color: rgb(151, 151, 151);
+  margin-bottom: 10px;
+  
+}
+
+h4{
+  margin-top: 10px;
+}
+
+p {
+  width: 600px;
+  margin-top: 10px;
+}
+
+#hobbies {
+  display: flex;
+  flex-direction: column;
+}
+
+#hobbies ul{
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 600px) {
+
+  .content{
+    display: flex;
+    flex-direction: column;
+  
+  }
+
+  p {
+    max-width: 400px;
+  }
+
+  .contacts {
+    position: relative;
+    width: 400px;
+  }
+
+  .contacts dl {
+    display: flex;
+    
+    justify-content: flex-start;
+    background-color: white;
+  }
+
+  #contact h3 {
+    display:block;
+  
+ }
+
+ header div hgroup {
+  
+  margin-left: 40px;
+  margin-top: 30px;
+  justify-self: flex-start;
+  align-self: flex-start;
+  line-height: 40px;
+  color:#ff0000;
+  margin-bottom: 20px;
+
+}
+header div {
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  height: 50vh;
+}
+
+figure {
+  align-self: flex-start;
+  margin-left: 50px ;
+  color: #707070;
+}
+}

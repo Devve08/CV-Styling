@@ -1,0 +1,647 @@
+/* light */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300&display=swap');
+
+/* regular */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap');
+
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600&display=swap');
+
+/* font-family: 'Source Sans Pro', sans-serif; */
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.image{
+    
+    width: 220px;
+    height: 220px;
+    z-index: 1;
+}
+
+img{
+    width: 100%;
+    z-index: 1;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+strong{
+    font-weight: bold;
+    font-size: 2em;
+    margin-left: 15px;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+
+
+header{
+    width: 50%;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    position: relative;
+}
+
+.Hi {
+    
+    width: 200px;
+    height: auto;
+    font-size: 1.9em;
+    font-weight: 100;
+    margin-top: 50px;
+    margin-left: 15px;
+    line-height: 45px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.job{
+    background-color: #14cfae;
+    width: 70%;
+    font-size: 1.9em;
+    font-weight: 100;
+    position: absolute;
+    text-align: end;
+    bottom: 50px;
+    right: 19%;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.job-title{
+    margin-right: 15px;
+}
+
+.introduction{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 100px;
+    height: 90vh;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url(https://cdn57.androidauthority.net/wp-content/uploads/2018/02/Android-Development-Recycler-View-Night-Laptop.jpg);
+    background-size: 85em;
+}
+
+.aboutme{
+    width: 20%;
+    text-align: center;
+}
+
+.title {
+    color: #14cfae;
+    margin-top: 3em;
+    font-size: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.discription a{
+    color: #14cfae;
+}
+
+.discription, .qualities, .skill {
+    color: whitesmoke;
+    margin-top: 3em;
+    font-size: 1.2em;
+    line-height: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-left: 1px solid #14cfae;
+    padding-left: 40px;
+    height: 50%;
+}
+
+.personal-qualities{
+    text-align: center;
+}
+
+.skills{
+    text-align: center;
+}
+
+.qualities li{
+    padding-left: 0;
+    margin-right: 50px;
+}
+
+.contain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+
+.title-education{
+    font-size: 2em;
+    color: #14cfae;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+}
+.par {
+    width: 50%;
+    margin:auto;
+    margin-top: 50px;
+    font-size: 1.1em;
+    font-family: 'Source Sans Pro', sans-serif;
+    border-left: 1px solid #14cfae;
+    padding-left: 50px;
+}
+
+.education-place{
+    line-height: 1.7em;
+}
+
+.lang-title{
+    font-size: 2em;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    color: #14cfae;
+}
+
+.english-title{
+    font-size: 1.3em;
+    font-family: 'Source Sans Pro', sans-serif ;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.lang-skills ul{
+    text-align: center;
+    list-style: none;
+    border-left: 1px solid #14cfae;
+    width: 50%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.lang-skills li {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+    font-size: 1.1em;
+    font-family: 'Source Sans Pro', sans-serif ;
+}
+
+.contain-two{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+}
+
+.employment-title{
+    color: #14cfae;
+    font-size: 2em;
+    font-family: 'Source Sans Pro', sans-serif ;
+    text-align: center;
+    margin-top: 50px;
+}
+.soficom .titl-par{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif ;
+    font-size: 1.1em;
+    margin-bottom: 30px;
+    width: 70%;
+    margin: auto;
+    margin-top: 30px;
+    border-left: 1px solid #14cfae;
+    padding-left: 20px;
+}
+
+.soficom{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.sofi-span {
+    font-weight: bold;
+    font-size: 1.15em;
+}
+.employment h3{
+    background-color: #14cfae;
+    margin: auto;
+    padding: 10px;
+    width: 50%;
+    margin-top: 50px;
+    font-size: 1.3em;
+    font-family: 'Source Sans Pro', sans-serif ;
+    text-align: center;
+}
+
+
+
+.title-workshop{
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Source Sans Pro', sans-serif ;
+    color: #14cfae;
+    margin-top: 50px;
+}
+
+.workshop ul{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 150px;
+    font-family: 'Source Sans Pro', sans-serif ;
+    border-left: 1px solid #14cfae;
+    padding-left: 50px;
+}
+
+.workshop-par{
+    margin-top: 20px;
+}
+
+fieldset{
+    width: 40%;
+    margin: auto;
+    border-radius: 10px;
+    border-color: #14cfae;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+footer{
+    margin-top: 50px;
+}
+
+legend{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif ;
+    font-size: 1.6em;
+    color: #14cfae;
+}
+
+.container-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Source Sans Pro', sans-serif ;
+    font-size: 1.1em;
+    line-height: 3em;
+
+}
+
+.container-two li{
+    list-style: none;
+}
+
+@media  screen and (max-width:700px) {
+
+    .contain-two{
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(32, 31, 31);
+    }
+
+    .contain{
+        display: flex;
+        flex-direction: column;
+        align-content: stretch;
+    }
+    
+
+    header{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        margin-top: 100px ;
+        text-align: center;
+        margin-bottom: 50px;
+        
+    }
+
+    .image{
+        margin: auto;
+        width: 200px;
+        height: 200px;
+
+        
+    }
+    img{
+        width: 100%;
+        box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+        border-radius: 4px;
+
+    }
+
+    .Hi{
+        font-family: 'Source Sans Pro', sans-serif; 
+        font-weight: 300;
+        font-size: 2em;
+        margin: auto;
+        height: auto;
+        
+        
+    }
+
+    strong{
+        font-family:'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        font-size: 2em;
+        margin-top: 0;
+    }
+
+    .content{
+        width:100%
+
+    }
+
+    .introduction{
+        background-color: rgb(32, 31, 31);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        background-image:none;
+        height: auto;
+        
+    
+    }
+
+    .aboutme{
+        width: 75%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 80px;
+    }
+
+    .qualities, .skill{
+        border: none;
+        padding: 0;
+        
+    }
+
+    .qualities{
+        margin-left: 60px;
+    }
+
+    .title{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        color: #14cfae;
+        font-size: 2em;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        border-bottom: 1px solid white;
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .aboutme .discription{
+        color: white;
+        font-family: 'Source Sans Pro', sans-serif ;
+        font-size: 1.1em;
+        font-weight: 400;
+        line-height: 1.5em;
+        border: none;
+        padding: 0;
+    }
+
+    .aboutme .discription a{
+        text-decoration: none;
+        color: #14cfae;
+        font-size: 1.1em;
+        
+    }
+
+    .personal-qualities, .skills{
+        width: 75%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 60px;
+        padding: 0;
+    }
+
+   .skills ul, .personal-qualities ul{
+        color: white;
+        font-family: 'Source Sans Pro', sans-serif ;
+        font-size: 1.1em;
+        font-weight: 400;
+        line-height: 1.5em;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 50px;
+    }
+
+    .job{
+        display: none;
+    }
+
+    .skills li, .personal-qualities li{
+        width: 150px;
+        align-self: center;
+        
+    }
+
+
+    .education{
+        background-color: white;
+        
+
+    }
+
+    .title-education {
+        margin: 50px auto;
+        background-color: #14cfae ;
+        width: 200px;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+
+
+    .par{
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        font-size: 1.1em;
+        border: none;
+        padding: 0;
+        
+    }
+
+    .par li {
+        margin-bottom: 20px;
+    }
+
+    .lang-skills li{
+        
+        margin: auto;
+        list-style: none;
+        font-size: 1.1em;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 5px;
+        font-family: 'Source Sans Pro', sans-serif;
+        
+    }
+    .lang-skills ul {
+        margin-bottom: 40px;
+        border-left: 2px solid #14cfae;
+        width: 50%;
+        margin: auto;
+        padding-left: 20px;
+    }
+    .languages{
+        background-color: white;
+        height: 100%;
+    }
+
+    .lang-title{
+        margin: 50px auto;
+        background-color: #14cfae ;
+        width: 200px;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        font-family: 'Source Sans Pro', sans-serif;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    }
+     
+    .languages h3{
+        text-align: center;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin-bottom: 15px;
+    }
+
+    .employment{
+        background-color: rgb(32, 31, 31);
+        margin-bottom: 0;
+        padding-bottom: 20px;
+    }
+
+    .employment-title{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        color: #14cfae;
+        font-size: 2em;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        border-bottom: 1px solid white;
+        width: 60%;
+        margin: 30px auto;
+        text-align: center;
+    }
+
+    .soficom {
+        
+        text-align: center;
+        
+    }
+
+    .titl{
+        font-family: 'Source Sans Pro', sans-serif;
+        
+        background-color: #14cfae;
+        padding: 10px;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    .soficom .titl-par {
+        font-family: 'Source Sans Pro', sans-serif;
+        color: whitesmoke;
+        font-size: 1.1em;
+        padding-bottom: 30px;
+        width: 60%;
+        margin: auto;
+        margin-top: 50px;
+        border: none;
+    }
+
+    .sofi-span{
+        color: #14cfae;
+
+    }
+
+    .workshop {
+        background-color: rgb(32, 31, 31);
+        
+    }
+
+    .title-workshop{
+        padding-bottom: 10px;
+        color: #14cfae;
+        font-size: 2em;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        border-bottom: 1px solid white;
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .workshop-par{
+        color: whitesmoke;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.1em;
+        width: 70%;
+        margin: auto;
+        padding-bottom: 40px;
+    }
+
+    .workshop ul{
+        border: none;
+        margin-top: 0;
+        padding: 0;
+    }
+
+    footer{
+        background-color: #14cfae ;
+        padding-bottom: 20px;
+    }
+
+    fieldset{
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 10px;
+        border: 2px solid #fdffff;
+        height: 100%;
+        padding-top: 10px;
+
+    }
+
+    legend{
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.5em;
+        color: rgb(19, 18, 18) ;
+        text-align: center;
+        
+    }
+
+    .container-two{
+        display: flex;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+
+    .footer-one, .footer-two{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        line-height: 40px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-size: 1.1em;
+        padding-bottom: 10px;
+        
+    }
+   
+}
